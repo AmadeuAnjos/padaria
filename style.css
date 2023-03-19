@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+:root {
+    --red: #D62300;
+    --orange: #FF8233;
+    --brown: #522714;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +13,8 @@
 }
 
 body {
+    font-family: 'Lobster', sans-serif;
+    font-size: 20px;
 }
 
 header {
@@ -14,23 +22,30 @@ header {
     height: 70px;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+
+.logo h1 {
+    display: none;
 }
 
 header img{
     width: 60px;
 }
 
+.icon {
+    display: none;;
+}
+
 nav ul li {
     display: inline-block;
-    margin: 0 40px;
-    color: #FF8233;
+    margin: 0 20px;
+    color: var(--orange);
 }
 
 nav ul li:hover {
     cursor: pointer;
-    color: #522714;
 }
 
 .whatsapp {
@@ -41,35 +56,191 @@ nav ul li:hover {
     font-size: 20px;
 }
 
+.contact {
+    display: none;;
+}
+
 .whatsapp img{
     width: 35px;
     margin: 0 10px;
 }
 
 hr {
-    border: 1px solid #522714;
+    border: 1px solid var(--brown);
     width: 70%;
     margin: auto;
 }
 
+#hr-two {
+    border: 1px solid var(--brown);
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#hr-three {
+    border: 1px solid var(--brown);
+    width: 70%;
+    margin: auto;
+}
+
+label {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 2px;
+    color: var(--orange);
+}
 
 /*product / produtos */
 
 .container-product {
-    background-color: #FF8233;
     width: 70%;   
     margin: auto;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .product {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
 }
 
 .product img {
-    width: 300px;
+    max-width: 100%;
+    max-height: 100%;
 }
+
+button {
+    color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--red);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+button:hover {
+    border: 1px solid var(--red);
+    background-color: white;
+    color: var(--red);
+}
+
+@media only screen and (max-width: 962px) {
+
+    header {
+        width: 70%;
+    }
+    
+    nav ul li {
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+
+    header {
+        width: 80%;
+    }
+
+    hr, #hr-two, #hr-three{
+         width: 80%;
+    }
+
+    .container-product {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 714px) {
+
+    header {
+        width: 90%;
+    }
+
+    hr, #hr-two, #hr-three{
+         width: 90%;
+    }
+
+    .container-product {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 634px) {
+
+    header {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media only screen and (max-width: 634px) {
+
+    header {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 623px) {
+
+    header {
+        font-size: 1.1rem;
+        justify-content: space-between;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .icon {
+        display: flex;
+    }
+
+    .whatsapp {
+        display: none;
+    }
+
+    .contact {
+        display: flex;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .logo h1 {
+        display: flex;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: var(--orange);
+    }
+
+    .product {
+        display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 30px;
+    }
+
+    #hr-two, #hr-three{
+        display: none;
+   }
+
+   label {
+    margin-top: 20px;
+   }
+}
+    
