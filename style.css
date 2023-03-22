@@ -173,6 +173,20 @@ a {
     text-decoration: none;
 }
 
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:180px;
+    width:709px;
+}
+    
+.gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:180px;
+        width:709px;
+}
+
 .social-icons {
     margin: auto;
     width: 70%;
@@ -284,6 +298,11 @@ a {
         color: var(--orange);
     }
 
+    .tittle{
+        width: 90%;
+        display: flex;
+    }
+
     .product {
         display: grid;
     grid-template-columns: 1fr;
@@ -291,13 +310,28 @@ a {
     grid-column-gap: 0px;
     grid-row-gap: 30px;
     }
+    
+    .container-footer {
+        width: 90%;
+    }
+    
+    .footer-center {
+        background-color: rgb(219, 23, 23);
+        display: flex;
+        justify-content: space-between;
+    }
 
-    #hr-two, #hr-three{
-        display: none;
-   }
-
-   label {
-    margin-top: 20px;
-   }
+    .mapouter{
+        background-color: yellow;
+        width: 350px;
+    }
+        
+    .gmap_canvas {
+    }
+    
+    .register {
+        margin: 20px auto 0;
+        width: 70%;
+    }
 }
     
