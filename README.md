@@ -1,4 +1,4 @@
-### Landing page Padaria 
+# Landing page Padaria 
 
 
 ## Projeto funcional
@@ -18,6 +18,15 @@ Já trabalho algum tempo com Corel Draw, ferramenta me atende perfeitamente, por
 
 
 ## Objetivos
+
 - [X] Criar menu.
 - [X] Criar grid para mostrar produtos.
-- [] Desenvolvimento first mobile.
+- [X] Desenvolvimento first mobile.
+- [X] Inserir iframe maps.
+- [X] Criar footer/rodapé.
+- [X] Criar página Home.
+- [X] Criar página Lanches.
+- [X] Criar página Pizzas.
+- [X] Criar página Pratos.
+- [X] Criar página Doces.
+- [X] Criar página Contato.

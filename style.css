@@ -82,7 +82,7 @@ hr {
     display: flex;
 }
 
-label {
+.description {
     font-size: 2rem;
     display: flex;
     justify-content: center;
