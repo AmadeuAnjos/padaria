@@ -1,5 +1,13 @@
 # Landing page Padaria 
 
+## Projeto funcional
+![image](https://user-images.githubusercontent.com/53497771/226183047-e18adf7f-8390-40b9-ad48-2d432e9cc49a.png)
+
+
+## Projeto desenvolvido no Figma
+
+![image](https://user-images.githubusercontent.com/53497771/226129836-da77c6e2-68e5-4f27-b0c5-8fe8b318eaac.png)
+
 ## Idéia 
 idéia surgiu através de uma necessidade. Mostrar para o dono da padaria um site de qualidade, onde ele pode apresentar produtos da padaria dele para os clientes.
 
