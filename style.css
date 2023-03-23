@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+
 
 :root {
     --red: #D62300;
@@ -92,6 +95,25 @@ hr {
     text-align: center;
     letter-spacing: 2px;
     color: var(--orange);
+}
+
+.container-banner {
+    background-color: #FF8233;
+    margin: auto;
+    width: 70%;
+}
+
+.image-banner {
+    background-color: white;
+    
+    width: 100%;
+}
+
+.info-center {
+    margin: auto;
+    width: 90%;
+    font-family: 'Lobster Two', cursive;
+    text-align: justify;
 }
 
 /*product / produtos */
