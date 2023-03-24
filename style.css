@@ -350,6 +350,7 @@ form {
         top: 155px;
         display: flex;
         flex-direction: column;
+        letter-spacing: 2px;
     }    
 
     .icon {
