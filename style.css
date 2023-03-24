@@ -98,22 +98,27 @@ hr {
 }
 
 .container-banner {
-    background-color: #FF8233;
     margin: auto;
     width: 70%;
 }
 
-.image-banner {
+.image-center {
+    margin-top: 50px;
     background-color: white;
-    
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
 
 .info-center {
     margin: auto;
-    width: 90%;
+    width: 100%;
     font-family: 'Lobster Two', cursive;
     text-align: justify;
+}
+
+.info-center p {
+    margin-top: 50px;
 }
 
 /*product / produtos */
@@ -195,6 +200,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+        border-bottom: 1px solid white;
+}
+
 .mapouter{
     position:relative;
     text-align:right;
@@ -225,6 +234,22 @@ a {
     width: 70%;
     display: flex;
     justify-content: center;
+}
+
+.register p{
+    font-size: 1rem;
+}
+
+label {
+    color: var(--orange);
+}
+
+form {
+    margin: auto;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (max-width: 962px) {
@@ -338,22 +363,22 @@ a {
     }
     
     .footer-center {
-        background-color: rgb(219, 23, 23);
         display: flex;
         justify-content: space-between;
     }
 
-    .mapouter{
-        background-color: yellow;
-        width: 350px;
-    }
-        
-    .gmap_canvas {
+    .maps {
+        display: none;
     }
     
     .register {
         margin: 20px auto 0;
-        width: 70%;
+        width: 95%;
+    }
+
+    .register p {
+        font-size: 0.9rem;
+        text-align: center;
     }
 }
     
