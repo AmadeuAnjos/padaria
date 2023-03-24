@@ -336,9 +336,21 @@ form {
         justify-content: center;
     }
 
-    #menu {
-        display: none;
+    nav {
+        display: none;        
     }
+
+    #menu li {
+        width: 120px;
+        height: 40px;
+        padding: 10px;
+        background-color: #522714;
+        position: relative;
+        left: -140px;
+        top: 155px;
+        display: flex;
+        flex-direction: column;
+    }    
 
     .icon {
         display: flex;
