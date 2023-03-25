@@ -369,6 +369,10 @@ form {
         display: flex;
     }
 
+    .contact a {
+        color: #000000;
+    }
+
     .logo img {
         display: none;
     }
