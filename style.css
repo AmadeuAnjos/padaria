@@ -164,6 +164,11 @@ button:hover {
     color: var(--red);
 }
 
+#button-contact {
+    margin-top: 40px;
+}
+
+
 /* Footer / Rodapé */
 
 footer {

@@ -29,3 +29,6 @@ Já trabalho algum tempo com Corel Draw, ferramenta me atende perfeitamente, por
 - [X] Criar página Pratos.
 - [X] Criar página Doces.
 - [X] Criar página Contato.
+- [X] Criar link para whatsapp.
+- [X] Criar função para confirmar envio de mensagem.
+
