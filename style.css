@@ -141,9 +141,41 @@ hr {
     grid-row-gap: 30px;
 }
 
-.product img {
+
+.div1 {
+}
+
+.box-content {
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 1000ms;
+}
+
+.front {
+    position: absolute;
+    backface-visibility: hidden;
+
+}
+.front img {
     max-width: 100%;
-    max-height: 100%;
+}
+
+.back {
+    background-color: white;
+    color: var(--orange);
+
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 10px;
+}
+
+.box:hover .box-content {
+    transform: rotateY(180deg);
 }
 
 button {
@@ -153,9 +185,8 @@ button {
     border-radius: 6px;
     border: none;
     background-color: var(--red);
-    margin-top: 10px;
-    margin-bottom: 20px;
     font-weight: 900;
+    margin-top: 220px;
 }
 
 button:hover {
@@ -210,7 +241,8 @@ footer {
 }
 
 .footer-links a:hover {
-        border-bottom: 1px solid var(--orange);
+        border-bottom: 1px solid white;
+        color: white;
 }
 
 h2 {
@@ -261,6 +293,11 @@ h2 {
 .register p{
     font-size: 1rem;
 }
+
+.copyright-text a:hover{
+    color: white;
+}
+
 
 label {
     color: var(--orange);
@@ -415,10 +452,14 @@ form {
 
     .product {
         display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 30px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 30px;
+    }
+
+    button {
+        margin-top: 250px;
     }
     
     .container-footer {
