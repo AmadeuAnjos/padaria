@@ -379,21 +379,22 @@ form {
     }
 
     nav {
-        display: none;        
+        display: none;
     }
 
-    #menu li {
+    #menu ul li { 
+        z-index: 999;
+        position: relative;
         width: 120px;
         height: 40px;
         padding: 10px;
         background-color: #522714;
-        position: relative;
         left: -140px;
         top: 155px;
         display: flex;
         flex-direction: column;
         letter-spacing: 2px;
-    }    
+    } 
 
     .icon {
         display: flex;
