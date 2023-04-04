@@ -8,8 +8,8 @@
 
 ![image](https://user-images.githubusercontent.com/53497771/226129836-da77c6e2-68e5-4f27-b0c5-8fe8b318eaac.png)
 
-## Idéia 
-idéia surgiu através de uma necessidade. Mostrar para o dono da padaria um site de qualidade, onde ele pode apresentar produtos da padaria dele para os clientes.
+## Ideia 
+ideia surgiu através de uma necessidade. Mostrar para o dono da padaria um site de qualidade, onde ele pode apresentar produtos da padaria dele para os clientes.
 
 ## Desenvolvimento
 Comecei desenhando no papel, logo passei para o Figma. Após fazer no Figma, comecei a transformar em código. 
